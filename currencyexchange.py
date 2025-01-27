@@ -21,6 +21,7 @@ def conversion():
     result.configure(text=f"Converted amount: {round(conversion_amount,4)} {selected_opt2.get()}")
 
 app = ctk.CTk()
+app.title("Currency Exchange App")
 app.geometry("400x500")
 app.iconbitmap("moneyicon.ico")
 
